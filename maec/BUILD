@@ -1,0 +1,9 @@
+python_library(
+    name='maec',
+    sources=rglobs('*.py'),
+    dependencies=[
+        '3rdparty/python:lxml',
+        '3rdparty/python:python-dateutil',
+        '3rdparty/python-cybox/cybox',
+        ]
+    )
